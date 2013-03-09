@@ -1,28 +1,48 @@
 Notes:
+------- Print a string. -------
 
 print ""
 
--- Print a string. --
+------- Comment a line. -------
 
 #
 
--- Comment a line. --
+------- Math symbols. -------
 
 + - / * % < > <= =>
 
--- Math symbols. --
+------- Creating a variable. -------
 
 variable_name = variable
 
--- Creating a variable. --
+------- Call a variable. -------
 
 print "%d %s" % (decimal_var, string_var)
 
--- Call a variable."
+------- Print block -------
 
 """
 text
 text
 """
+------- Prompting People.-------
 
--- Print block --
+variable_name = raw_input("prompt")
+
+or
+
+print "prompt"
+variable_name = raw_input()
+
+------- Import argv.-------
+
+from sys import argv
+
+-------File commands. -------
+
+close
+read
+readline
+truncate
+write(stuff)
+
